@@ -1,0 +1,541 @@
+/* @mixin small-mobile {
+  @media (max-width: $small-mobile-width){ 
+    @content;
+  } 
+} */
+/* MAIN STYLING */
+#dsgContent {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+#currys-style {
+  font-family: 'Gotham A', 'Gotham B', sans-serif;
+  margin: 0 auto;
+  /*-------------- OVERRIDE COLUMN STYLE ------------*/
+  /*---------------- HOW TO BUY SECTION ----------------*/
+  /*------------ MAIN NAVIGATION ---------------*/
+  /*------------ FAQS ---------------*/ }
+  @media (min-width: 1240px) {
+    #currys-style {
+      width: 1240px; } }
+  #currys-style a {
+    text-decoration: none; }
+  #currys-style .top-banner img {
+    max-width: 100%; }
+  #currys-style p {
+    font-size: 15px; }
+  #currys-style ul {
+   font-size: 14px; }
+  #currys-style [class^="col"], #currys-style [class*="col"] {
+    float: none;
+    margin: 0; }
+  #currys-style .how-to-buy {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #4855A0;
+    background-image: -webkit-gradient(linear, right top, left top, from(#7D2478), to(#0A3B85));
+    background-image: linear-gradient(270deg, #7D2478 0%, #0A3B85 100%);
+    color: #fff;
+    display: none;
+    margin: 0 0 20px 0;
+    padding: 0 15px; }
+    @media (min-width: 600px) {
+      #currys-style .how-to-buy {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        margin: 20px 0 20px 0; } }
+    @media (min-width: 1240px) {
+      #currys-style .how-to-buy {
+        border-radius: 3px;
+        padding: 0 20px;
+        height: 63px; } }
+    #currys-style .how-to-buy .vertical-line {
+      display: inline-block;
+      border-left: 1px solid #fff;
+      margin: 0 10px;
+      height: 45px; }
+    #currys-style .how-to-buy .ways-to-buy {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 8px 0;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 84%; }
+      @media (min-width: 1240px) {
+        #currys-style .how-to-buy .ways-to-buy {
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          padding: 0;
+          width: 87%; } }
+    #currys-style .how-to-buy .online, #currys-style .how-to-buy .in-store, #currys-style .how-to-buy .call {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0px 10px;
+      width: 30%; }
+      #currys-style .how-to-buy .online:not(.online), #currys-style .how-to-buy .in-store:not(.online), #currys-style .how-to-buy .call:not(.online) {
+        width: 33%; }
+      @media (min-width: 1025px) {
+        #currys-style .how-to-buy .online, #currys-style .how-to-buy .in-store, #currys-style .how-to-buy .call {
+          padding: 0; } }
+      @media (min-width: 1240px) {
+        #currys-style .how-to-buy .online, #currys-style .how-to-buy .in-store, #currys-style .how-to-buy .call {
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; } }
+    #currys-style .how-to-buy h2, #currys-style .how-to-buy h3 {
+      font-size: 12px; }
+      @media (min-width: 1025px) {
+        #currys-style .how-to-buy h2, #currys-style .how-to-buy h3 {
+          font-size: 14px; } }
+    #currys-style .how-to-buy h2 {
+      margin: 0;
+      text-align: center; }
+    #currys-style .how-to-buy h3 {
+      margin: 0 0 3px 0; }
+    #currys-style .how-to-buy .how-to-buy-text {
+      margin-left: 8px; }
+      #currys-style .how-to-buy .how-to-buy-text a {
+        color: #fff;
+        text-decoration: none; }
+    #currys-style .how-to-buy p {
+      font-size: 12px;
+      margin: 0; }
+      @media (min-width: 1025px) {
+        #currys-style .how-to-buy p {
+          font-size: 13px; } }
+    #currys-style .how-to-buy img {
+      height: 35px;
+      width: auto; }
+      @media (min-width: 1025px) {
+        #currys-style .how-to-buy img {
+          height: 49px; } }
+  #currys-style .how-to-buy-mobile {
+    display: block;
+    background: #4855A0;
+    background-image: -webkit-gradient(linear, right top, left top, from(#7D2478), to(#0A3B85));
+    background-image: linear-gradient(270deg, #7D2478 0%, #0A3B85 100%);
+    /* UNDO GRID STYLE RULES */ }
+    @media (min-width: 600px) {
+      #currys-style .how-to-buy-mobile {
+        display: none; } }
+    #currys-style .how-to-buy-mobile [class^="col"], #currys-style .how-to-buy-mobile [class*="col"] {
+      display: inline;
+      float: none;
+      margin-left: 0; }
+    #currys-style .how-to-buy-mobile a h2 {
+      padding: 12px;
+      color: #fff;
+      font-size: 12px;
+      text-align: center;
+      margin-bottom: 0; }
+      #currys-style .how-to-buy-mobile a h2:after {
+        content: "\f078";
+        font-family: 'DCG-Icons', Arial, sans-serif;
+        color: #fff;
+        font-size: 11px;
+        margin-left: 10px; }
+    #currys-style .how-to-buy-mobile a.active h2:after {
+      content: "\f077";
+      font-family: 'DCG-Icons', Arial, sans-serif;
+      color: #fff;
+      font-size: 11px;
+      margin-left: 10px; }
+    #currys-style .how-to-buy-mobile .how-to-buy-wrapper {
+      border-top: 1px solid white;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 8px;
+      padding: 0 0 15px 0; }
+    #currys-style .how-to-buy-mobile div {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 33%;
+              flex: 0 1 33%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      #currys-style .how-to-buy-mobile div img {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 0; }
+    #currys-style .how-to-buy-mobile .how-to-buy-text-mobile {
+      color: white;
+      text-align: center; }
+      #currys-style .how-to-buy-mobile .how-to-buy-text-mobile h3 {
+        font-size: 11px; }
+      #currys-style .how-to-buy-mobile .how-to-buy-text-mobile p {
+        margin-bottom: 0;
+        font-size: 11px; }
+      #currys-style .how-to-buy-mobile .how-to-buy-text-mobile a {
+        color: #fff; }
+  #currys-style .main-content {
+    border: 1px solid #ccc;
+    margin-bottom: 10px; }
+    #currys-style .main-content h2 {
+      margin: 17px 0 30px 0;
+      text-align: center;
+      font-size: 1.5em; }
+      @media (min-width: 800px) {
+        #currys-style .main-content h2 {
+          margin: 42px 0; } }
+      @media (min-width: 1025px) {
+        #currys-style .main-content h2 {
+          font-size: 1.8em; } }
+  #currys-style .mobile-chevrons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 7px 0 0 0;
+    margin-right: 2px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    @media (min-width: 800px) {
+      #currys-style .mobile-chevrons {
+        display: none; } }
+    #currys-style .mobile-chevrons .icon-chevron-right, #currys-style .mobile-chevrons .icon-chevron-left {
+      margin-right: 3px;
+      color: #4855A0; }
+    #currys-style .mobile-chevrons.--videos .icon-chevron-right {
+      margin: 0 0 0 3px;
+      font-size: 17px; }
+    @media (min-width: 600px) {
+      #currys-style .mobile-chevrons.--videos {
+        display: none; } }
+  #currys-style .main-nav {
+    border-bottom: 1px solid #ccc;
+    margin: 0; }
+    #currys-style .main-nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      height: 50px;
+      overflow-x: auto; }
+    #currys-style .main-nav li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 1;
+          -ms-flex: 1 0 38%;
+              flex: 1 0 38%;
+      font-size: 15px;
+      text-align: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 0;
+      list-style: none; }
+      @media (min-width: 600px) {
+        #currys-style .main-nav li {
+          -webkit-box-flex: 1;
+              -ms-flex: 1 0 29%;
+                  flex: 1 0 29%; } }
+      @media (min-width: 800px) {
+        #currys-style .main-nav li {
+          -webkit-box-flex: 1;
+              -ms-flex: 1;
+                  flex: 1; } }
+      #currys-style .main-nav li.active {
+        font-weight: bold;
+        border-bottom: 3px solid #4855A0; }
+      #currys-style .main-nav li a {
+        text-decoration: none;
+        color: #4855A0;
+        padding: 0; }
+  #currys-style .intro-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    @media (min-width: 1240px) {
+      #currys-style .intro-section {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
+  #currys-style .intro-info {
+    background-color: #143883;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 10px; }
+    @media (min-width: 1240px) {
+      #currys-style .intro-info {
+        padding: 20px;
+        width: 65%;
+        margin-bottom: 0; } }
+    #currys-style .intro-info h1 {
+      color: #fff;
+      font-size: 1.6em; }
+      @media (min-width: 800px) {
+        #currys-style .intro-info h1 {
+          font-size: 1.9em; } }
+    #currys-style .intro-info h2 {
+      font-size: 1.4em; }
+      @media (min-width: 800px) {
+        #currys-style .intro-info h2 {
+          font-size: 1.5em; } }
+    #currys-style .intro-info p {
+      margin-bottom: 0;
+      font-size: 15px; }
+      #currys-style .intro-info p:last-child {
+        margin-top: 15px; }
+    #currys-style .intro-info a {
+      text-decoration: underline;
+      color: #fff; }
+  #currys-style .tech-guide {
+    background: #d0a5cf;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, #d0a5cf), color-stop(75%, #e3c9e1));
+    background: linear-gradient(180deg, #d0a5cf 25%, #e3c9e1 75%);
+    margin: 0 0 10px 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #2B2B79; }
+    @media (min-width: 600px) {
+      #currys-style .tech-guide {
+        margin: 0; } }
+    @media (min-width: 800px) {
+      #currys-style .tech-guide {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
+    @media (min-width: 1240px) {
+      #currys-style .tech-guide {
+        margin: 0 0 0 1%;
+        padding: 20px 0;
+        width: 35%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+    #currys-style .tech-guide h2 {
+      font-size: 1.3em; }
+      @media (min-width: 600px) {
+        #currys-style .tech-guide h2 {
+          font-size: 2em; } }
+      @media (min-width: 800px) {
+        #currys-style .tech-guide h2 {
+          font-size: 1.8em; } }
+    #currys-style .tech-guide h3 {
+      font-size: 1.1em;
+      font-weight: 500; }
+      @media (min-width: 600px) {
+        #currys-style .tech-guide h3 {
+          font-size: 1.3em; } }
+      @media (min-width: 800px) {
+        #currys-style .tech-guide h3 {
+          font-size: 1.4em; } }
+      #currys-style .tech-guide h3::after {
+        content: "\f054";
+        font-family: 'DCG-Icons', Arial, sans-serif;
+        position: absolute;
+        -webkit-transform: translateY(4px);
+                transform: translateY(4px);
+        margin-left: 5px;
+        font-size: 12px; }
+        @media (min-width: 1240px) {
+          #currys-style .tech-guide h3::after {
+            font-size: 15px; } }
+    #currys-style .tech-guide img {
+      display: none; }
+      @media (min-width: 800px) {
+        #currys-style .tech-guide img {
+          display: block;
+          max-width: 100%;
+          width: 100%; } }
+  #currys-style .tech-guide-text {
+    padding: 20px; }
+    @media (min-width: 1025px) {
+      #currys-style .tech-guide-text {
+        width: 60%; } }
+    @media (min-width: 1240px) {
+      #currys-style .tech-guide-text {
+        padding: 0 20px;
+        width: 100%; } }
+  #currys-style .tech-guide-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (min-width: 1025px) {
+      #currys-style .tech-guide-img {
+        width: 40%; } }
+    @media (min-width: 1240px) {
+      #currys-style .tech-guide-img {
+        width: 100%; } }
+  #currys-style .inner {
+    padding: 0 20px 30px 20px; }
+    @media (min-width: 800px) {
+      #currys-style .inner {
+        padding: 0 80px 30px 80px; } }
+    #currys-style .inner h3 {
+      font-size: 1.2em; }
+      @media (min-width: 800px) {
+        #currys-style .inner h3 {
+          font-size: 1.4em; } }
+    #currys-style .inner.--big-delivery {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      @media (min-width: 800px) {
+        #currys-style .inner.--big-delivery {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row; } }
+      @media (min-width: 800px) {
+        #currys-style .inner.--big-delivery .big-item-delivery-text {
+          width: 100%; } }
+      #currys-style .inner.--big-delivery .video { }
+        @media (min-width: 800px) {
+          #currys-style .inner.--big-delivery .video {
+            width: 40%; } }
+  #currys-style .read-more {
+    text-align: center;
+    margin: 25px 20px; }
+  #currys-style .more-info {
+    display: block;
+    padding: 20px 20px;
+    background-color: #F5F7FD;
+    margin-bottom: 30px; }
+    @media (min-width: 800px) {
+      #currys-style .more-info {
+        padding: 30px 80px; } }
+    #currys-style .more-info li {
+      font-size: 15px;
+      margin-bottom: 15px; }
+    #currys-style .more-info p {
+      font-size: 15px; }
+  #currys-style #install-recycle .video-section {
+    display: grid;
+    grid-template-columns: repeat(4, 100%);
+    overflow-x: auto; }
+    @media (min-width: 450px) {
+      #currys-style #install-recycle .video-section {
+        grid-template-columns: repeat(4, 65%); } }
+    @media (min-width: 600px) {
+      #currys-style #install-recycle .video-section {
+        grid-template-columns: repeat(2, 1fr); } }
+  #currys-style #install-recycle .video {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 85%;
+            flex: 1 0 85%;
+    padding: 7px; }
+    @media (min-width: 600px) {
+      #currys-style #install-recycle .video {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 50%;
+                flex: 1 50%;
+        padding: 13px; } }
+  #currys-style .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;     
+    border: 2px solid #ccc;
+    margin-left: 10px;}
+  #currys-style iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  #currys-style .contact-us.inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  #currys-style .faqs {
+    margin: 55px auto 0 auto;
+    padding: 0 10px;
+    width: 90%; }
+    @media (min-width: 800px) {
+      #currys-style .faqs {
+        margin: 0 auto;
+        width: 58%; } }
+    #currys-style .faqs h2 {
+      text-align: center; }
+    #currys-style .faqs .question {
+      border-bottom: 1px solid #ccc; }
+      #currys-style .faqs .question:last-child {
+        margin-bottom: 60px; }
+      #currys-style .faqs .question a {
+        color: #000;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        #currys-style .faqs .question a:after {
+          content: "\e60c";
+          font-family: 'DCG-Icons', Arial, sans-serif;
+          color: #777;
+          font-size: 21px;
+          margin-left: auto;
+          -webkit-transition: all .2s;
+          transition: all .2s; }
+        #currys-style .faqs .question a.active:after {
+          -webkit-transform: rotate(45deg);
+                  transform: rotate(45deg); }
+      #currys-style .faqs .question .content-wrap {
+        padding: 10px; }
+        #currys-style .faqs .question .content-wrap a {
+          text-decoration: underline; }
+          #currys-style .faqs .question .content-wrap a:after {
+            content: " "; }
+    #currys-style .faqs ul {
+      padding: 0 0 10px 30px;
+      margin: 0; }
+    #currys-style .faqs li {
+      list-style-type: disc; }
+    #currys-style .faqs p {
+      font-size: 15px;
+      font-weight: bold;
+      margin: 0;
+      padding: 20px 0; }
+    #currys-style .faqs .content-wrap {
+      background-color: #F2F2F2; }
+      #currys-style .faqs .content-wrap p {
+        padding: 20px 10px; }
+    #currys-style .faqs .all-faqs-btn {
+      text-align: center;
+      margin: 60px 0 90px 0; }
+      #currys-style .faqs .all-faqs-btn a {
+        border-radius: 3px;
+        display: inline-block;
+        padding: 15px 90px;
+        border: 3px solid #4855A0; }
+    #currys-style .faqs [class^="col"], #currys-style .faqs [class*="col"] {
+      display: inline; }
+
+/*# sourceMappingURL=covid-style2.css.map */

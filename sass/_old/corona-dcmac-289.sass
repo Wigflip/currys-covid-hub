@@ -1,0 +1,129 @@
+$mobile-width: 600px
+
+@mixin mobile
+	@media (max-width: $mobile-width)
+		@content
+	
+.corona 
+	font-family: 'Gotham A', 'Gotham B', sans-serif
+	.orange 
+		width: 100%
+		text-align: center
+		color: #333
+		box-sizing: border-box
+		padding: 10px
+		margin-bottom: 20px
+		border-width: 1px
+		border-style: solid
+		border-color: rgb(235, 172, 110)
+		font-size: 14px 
+		h3 
+			font-size: 18px 
+		h1 
+			font-size: 24px 
+
+	.purple 
+		background: #F6EEFA
+		.toggleControler
+			background: #E2D4E9
+	.blue 
+		background: #F5F7FD
+		.toggleControler
+			background: #CCD3E9
+
+	.collapsable-content
+		margin-left: 0px
+
+	.toggleControler
+		display: block
+		padding: 10px 20px
+		text-decoration: none
+		color: inherit
+		p 
+			margin-bottom: 0px
+			display: flex
+			align-items: center
+		.icon-plus 
+			transition: all .2s
+			display: inline-block
+			margin-left: 5px
+
+	.active p .icon-plus
+		transform: rotate(45deg)
+
+	.content-wrap 
+		padding: 20px
+
+	.center 
+		text-align: center
+
+	section
+		margin-bottom: 35px
+		h3 
+			font-size: 15px
+			margin-top: 15px
+		.inner 
+			padding: 20px
+			p 
+				margin-bottom: 0px
+
+	.page-nav
+		margin: 30px 0
+		text-align: center
+		h2
+			font-size: 1.5em
+		.page-nav-links
+			display: flex
+			justify-content: center
+			margin-top: 25px
+			padding: 0
+			flex-wrap: wrap
+		a
+			color: #4855A0
+			text-decoration: none
+			font-size: 14px
+			padding: 0 18px
+			margin-bottom: 23px
+			border-right: 1px solid #ccc
+			position: relative
+			&:last-child
+				border-right: none
+			
+			.icon-chevron-down
+				position: absolute
+				right: 50%
+				top: 21px
+				transform: translateX(50%)
+				&:before
+					content: "\f078"
+
+			.icon-chevron-right
+				&:before
+					position: relative
+					top: 2px
+					right: -3px
+	
+	#faqs
+		.inner
+			background-color: #ffffff
+			border: solid 1px #ccc
+		[class^="col"], [class*="col"]
+			float: none
+
+		h2
+			margin: 25px 0 15px 0
+		a
+			margin-bottom: 7px
+			&:last-child
+				margin-bottom: 0
+
+		.questions
+			width: 95%
+			margin: auto
+			@include mobile
+				width: 100%
+		
+		.content-wrap
+			padding: 13px 20px 20px 20px
+			p
+				margin-bottom: 8px

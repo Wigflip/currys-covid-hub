@@ -1,0 +1,145 @@
+.corona {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+.corona .orange {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(235, 172, 110);
+  font-size: 14px;
+}
+.corona .orange h3 {
+  font-size: 18px;
+}
+.corona .orange h1 {
+  font-size: 24px;
+}
+.corona .purple {
+  background: #F6EEFA;
+}
+.corona .purple .toggleControler {
+  background: #E2D4E9;
+}
+.corona .blue {
+  background: #F5F7FD;
+}
+.corona .blue .toggleControler {
+  background: #CCD3E9;
+}
+.corona .collapsable-content {
+  margin-left: 0px;
+}
+.corona .toggleControler {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: inherit;
+}
+.corona .toggleControler p {
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+.corona .toggleControler .icon-plus {
+  transition: all 0.2s;
+  display: inline-block;
+  margin-left: 5px;
+}
+.corona .active p .icon-plus {
+  transform: rotate(45deg);
+}
+.corona .content-wrap {
+  padding: 20px;
+}
+.corona .center {
+  text-align: center;
+}
+.corona section {
+  margin-bottom: 35px;
+}
+.corona section h3 {
+  font-size: 15px;
+  margin-top: 15px;
+}
+.corona section .inner {
+  padding: 20px;
+}
+.corona section .inner p {
+  margin-bottom: 0px;
+}
+.corona .page-nav {
+  margin: 30px 0;
+  text-align: center;
+}
+.corona .page-nav h2 {
+  font-size: 1.5em;
+}
+.corona .page-nav .page-nav-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.corona .page-nav a {
+  color: #4855A0;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0 18px;
+  margin-bottom: 23px;
+  border-right: 1px solid #ccc;
+  position: relative;
+}
+.corona .page-nav a:last-child {
+  border-right: none;
+}
+.corona .page-nav a .icon-chevron-down {
+  position: absolute;
+  right: 50%;
+  top: 21px;
+  transform: translateX(50%);
+}
+.corona .page-nav a .icon-chevron-down:before {
+  content: "\f078";
+}
+.corona .page-nav a .icon-chevron-right:before {
+  position: relative;
+  top: 2px;
+  right: -3px;
+}
+.corona #faqs .inner {
+  background-color: #ffffff;
+  border: solid 1px #ccc;
+}
+.corona #faqs [class^=col], .corona #faqs [class*=col] {
+  float: none;
+}
+.corona #faqs h2 {
+  margin: 25px 0 15px 0;
+}
+.corona #faqs a {
+  margin-bottom: 7px;
+}
+.corona #faqs a:last-child {
+  margin-bottom: 0;
+}
+.corona #faqs .questions {
+  width: 95%;
+  margin: auto;
+}
+@media (max-width: 600px) {
+  .corona #faqs .questions {
+    width: 100%;
+  }
+}
+.corona #faqs .content-wrap {
+  padding: 13px 20px 20px 20px;
+}
+.corona #faqs .content-wrap p {
+  margin-bottom: 8px;
+}/*# sourceMappingURL=corona-dcmac-289.css.map */

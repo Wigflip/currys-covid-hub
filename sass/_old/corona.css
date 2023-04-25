@@ -1,0 +1,243 @@
+.corona {
+  font-family: "Gotham A", "Gotham B", sans-serif;
+}
+.corona .orange {
+  width: 100%;
+  text-align: center;
+  color: #333;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(235, 172, 110);
+  font-size: 14px;
+}
+.corona .orange h3 {
+  font-size: 18px;
+}
+.corona .orange h1 {
+  font-size: 24px;
+}
+.corona .purple {
+  background: #F6EEFA;
+}
+.corona .purple .toggleControler {
+  background: #E2D4E9;
+}
+.corona .blue {
+  background: #F5F7FD;
+}
+.corona .blue .toggleControler {
+  background: #CCD3E9;
+}
+.corona .collapsable-content {
+  margin-left: 0px;
+}
+.corona .toggleControler {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: inherit;
+}
+.corona .toggleControler p {
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+}
+.corona .toggleControler .icon-plus {
+  transition: all 0.2s;
+  display: inline-block;
+  margin-left: 5px;
+}
+.corona .active p .icon-plus {
+  transform: rotate(45deg);
+}
+.corona .content-wrap {
+  padding: 20px;
+}
+.corona .center {
+  text-align: center;
+}
+.corona section {
+  margin-bottom: 35px;
+}
+.corona section h3 {
+  font-size: 15px;
+  margin-top: 15px;
+}
+.corona section .inner {
+  padding: 20px;
+}
+.corona section .inner p {
+  margin-bottom: 0px;
+}
+.corona .page-nav {
+  margin: 30px 0;
+  text-align: center;
+}
+.corona .page-nav .icon-chevron-down {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .corona .page-nav .icon-chevron-down {
+    display: block;
+  }
+}
+.corona .page-nav h2 {
+  font-size: 1.5em;
+}
+.corona .page-nav .page-nav-links {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+  overflow-x: auto;
+}
+@media (min-width: 926px) {
+  .corona .page-nav .page-nav-links {
+    margin-top: 25px;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (min-width: 1240px) {
+  .corona .page-nav .page-nav-links {
+    margin: 29px auto 28px auto;
+    width: 90%;
+  }
+}
+.corona .page-nav a {
+  color: #4855A0;
+  display: flex;
+  text-decoration: none;
+  font-size: 14px;
+  height: 33px;
+  margin-bottom: 23px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px;
+  flex: 1 0 42%;
+}
+@media (min-width: 450px) {
+  .corona .page-nav a {
+    flex: 1 0 28%;
+  }
+}
+@media (min-width: 774px) {
+  .corona .page-nav a {
+    flex: 1 0 22%;
+    padding: 0 10px;
+  }
+}
+@media (min-width: 926px) {
+  .corona .page-nav a {
+    flex: 1 0 10%;
+  }
+}
+@media (min-width: 1024px) {
+  .corona .page-nav a {
+    flex: 1 0 auto;
+    height: auto;
+  }
+}
+.corona .page-nav a:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+.corona .page-nav a .icon-chevron-down {
+  position: absolute;
+  right: 50%;
+  top: 21px;
+  transform: translateX(50%);
+}
+.corona .page-nav a .icon-chevron-down:before {
+  content: "\f078";
+}
+.corona .page-nav a .icon-chevron-right:before {
+  position: relative;
+  top: 2px;
+  right: -3px;
+}
+.corona .page-nav div {
+  margin-top: 20px;
+  width: 100%;
+}
+.corona #big-delivery .inner {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 774px) {
+  .corona #big-delivery .inner {
+    flex-direction: row;
+  }
+}
+.corona #big-delivery .inner .text {
+  padding-right: 11px;
+  width: 100%;
+  padding: 0;
+}
+@media (min-width: 774px) {
+  .corona #big-delivery .inner .text {
+    padding-right: 11px;
+    width: 60%;
+  }
+}
+.corona #big-delivery .inner .text p {
+  margin-bottom: 15px;
+}
+.corona #big-delivery .inner .video {
+  width: 40%;
+  margin-top: 10px;
+}
+@media (min-width: 774px) {
+  .corona #big-delivery .inner .video {
+    width: 40%;
+  }
+}
+.corona #faqs .inner {
+  background-color: #ffffff;
+  border: solid 1px #ccc;
+  padding: 20px 20px 35px 20px;
+}
+.corona #faqs [class^=col], .corona #faqs [class*=col] {
+  float: none;
+}
+.corona #faqs h2 {
+  margin: 25px 0 15px 0;
+}
+.corona #faqs a {
+  margin-bottom: 7px;
+}
+.corona #faqs a:last-child {
+  margin-bottom: 0;
+}
+.corona #faqs .questions {
+  width: 100%;
+}
+@media (min-width: 774px) {
+  .corona #faqs .questions {
+    width: 95%;
+    margin: auto;
+  }
+}
+.corona #faqs .content-wrap {
+  padding: 13px 20px 20px 20px;
+}
+.corona #faqs .content-wrap p {
+  margin-bottom: 8px;
+}
+.corona .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.corona .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=corona.css.map */
