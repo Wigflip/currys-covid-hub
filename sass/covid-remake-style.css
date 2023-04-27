@@ -156,7 +156,8 @@ body {
   background: rgb(250, 245, 255);
   color: #4c12a1;
   margin: 10px;
-  padding: 15px 30px;
+  padding: 15px 23px;
+  display: flex;
 }
 @media (min-width: 1025px) {
   #currys-style .safety-video-mobile {
@@ -195,8 +196,31 @@ body {
     font-size: 1.4em;
   }
 }
-#currys-style .safety-video-mobile .pop-up-vid {
-  width: 100%;
+#currys-style .video-bg {
+  position: fixed;
+  background: #000;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.8;
+}
+#currys-style .pop-up-vid {
+  position: fixed;
+  width: 95%;
+  top: 50vh;
+  transform: translate(3%, -50%);
+}
+@media (min-width: 600px) {
+  #currys-style .pop-up-vid {
+    width: 65%;
+    transform: translate(30%, -50%);
+  }
+}
+#currys-style .pop-up-vid .close-btn {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin-left: auto;
 }
 #currys-style .how-to-buy {
   align-items: center;
@@ -323,10 +347,10 @@ body {
   margin: 0;
 }
 #currys-style .how-to-buy-mobile h2:after {
-  content: "\f078";
-  font-family: "DCG-Icons", Arial, sans-serif;
-  color: #fff;
-  font-size: 11px;
+  content: " ";
+  display: inline-block;
+  background: url("../img/arrow-icon.png") center no-repeat;
+  background-size: 16px auto;
   margin-left: 10px;
 }
 #currys-style .how-to-buy-mobile .content-wrap {
@@ -590,21 +614,14 @@ body {
   width: 100%;
   padding: 0 25px 25px 25px;
 }
-@media (min-width: 600px) {
-  #currys-style .stores-video {
-    width: 75%;
-    margin: 0 auto;
-  }
-}
 @media (min-width: 728px) {
   #currys-style .stores-video {
-    width: 70%;
+    padding: 0 15% 45px 15%;
   }
 }
 @media (min-width: 1025px) {
   #currys-style .stores-video {
     display: block;
-    width: 100%;
     padding: 30px 20.5% 80px 20.5%;
   }
 }
