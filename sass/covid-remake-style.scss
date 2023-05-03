@@ -182,14 +182,6 @@ body {
         font-size: 1.4em;
       }
     }
-    // img {
-    //   display: none;
-    //   @include tablet {
-    //     display: block;
-    //     max-width: 100%;
-    //     width: 100%;
-    //   }
-    // }
   }
 
   .video-bg{
@@ -440,27 +432,6 @@ body {
       }
     }
   }
-
-  // .tech-guide-text {
-  //   padding: 20px;
-  //   @include small-desktop {
-  //     width: 60%;
-  //   }
-  //   @include desktop {
-  //     padding: 0 20px;
-  //     width: 100%;
-  //   }
-  //   &:after {
-  //     content: url("https://currys-ssl.cdn.dixons.com/css/themes/corona/img/play-button2.png");
-  //     position: absolute;
-  //     right: 12px;
-  //     top: 53%;
-  //     transform: translateY(-53%);
-  //     @include large-mobile {
-  //       right: 25px;
-  //     }
-  //   }
-  // }
 
   main {
     border: 1px solid #ccc;
